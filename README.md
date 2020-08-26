@@ -28,7 +28,7 @@ The dataset contains 569 instances, 357 are labeled as B (benign) and 212 as M (
 
 
 ## Supervised ML Algorithms
-### Multi-Layer Perceptron
+### [Multi-Layer Perceptron](https://github.com/samarthkedilaya/Breast-Cancer-Diagnosis/blob/master/Supervised.py)
 1. Data Preprocessing - Split the data into train and test set (80:20). Then apply Minmax normalization which scales all the feature values to lie in the range of 0 to 1. 
 
 ![mlp](https://github.com/samarthkedilaya/Breast-Cancer-Diagnosis/blob/master/images/MLP.png)
@@ -52,7 +52,7 @@ Final accuracy of train data at 50th epoch is 97.58 %
 Final accuracy of test data at 50th epoch is 91.23 %
 
 
-### Logistic Regression
+### [Logistic Regression](https://github.com/samarthkedilaya/Breast-Cancer-Diagnosis/blob/master/Supervised.py)
 1. Data Preprocessing - Split the data into train and test set in (80:20) proportion and apply standardization, which centers the values of each feature column, setting it to have a mean of 0 and a standard deviation of 1. [new_x = (x - mean)/std]
 2. Forward Propagation
 3. Cost function or Cross Entropy or Likelihood function
@@ -90,7 +90,7 @@ Final accuracy of Test data at 3000th epoch is 93.05 %
 
 
 ## Unsupervised ML Algorithm
-### K-Means Clustering
+### [K-Means Clustering](https://github.com/samarthkedilaya/Breast-Cancer-Diagnosis/blob/master/Unsupervised.py)
 ![KM](https://github.com/samarthkedilaya/Breast-Cancer-Diagnosis/blob/master/images/KM.png)
 
 1. Mapped M = malignant or B = benign to 1 or 0 respectively and preprocessed the data by min max normalization
