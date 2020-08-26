@@ -3,7 +3,7 @@
 
 
 ## Description:
-Breast cancer starts when cells in the breast begin to grow out of control. These cells usually form a tumor that can often be seen on an x-ray or felt as a lump.
+[Breast cancer](https://www.cancer.org/cancer/breast-cancer.html) starts when cells in the breast begin to grow out of control. These cells usually form a tumor that can often be seen on an x-ray or felt as a lump.
 
 There are two main kinds of tumors:
 
@@ -21,7 +21,7 @@ Comparing the accuracy of two supervised and one unsupervised machine learning a
 
 
 ## Dataset:
-The dataset contains 569 instances, 357 are labeled as B (benign) and 212 as M (malignant).
+The [dataset](https://github.com/samarthkedilaya/Breast-Cancer-Diagnosis/blob/master/data/data.csv) contains 569 instances, 357 are labeled as B (benign) and 212 as M (malignant).
 
 30 features that are computed here come from a digitized image of a fine needle aspirate (FNA) of breast mass and they describe characteristics of the cell nuclei present in the image.
 
@@ -35,7 +35,7 @@ The dataset contains 569 instances, 357 are labeled as B (benign) and 212 as M (
 
 2. Forward propagation -  [Sigmoid Activation Function](https://en.wikipedia.org/wiki/Sigmoid_function)
 
-3. Backpropagation
+3. [Backpropagation](https://en.wikipedia.org/wiki/Backpropagation)
 
 
 #### MLP Results: 
@@ -59,13 +59,13 @@ Final accuracy of test data at 50th epoch is 91.23 %
 
 ![CF](https://github.com/samarthkedilaya/Breast-Cancer-Diagnosis/blob/master/images/CF.png)
 
-4. Gradient Descent
+4. [Gradient Descent](https://en.wikipedia.org/wiki/Gradient_descent)
 
 ![GD1](https://github.com/samarthkedilaya/Breast-Cancer-Diagnosis/blob/master/images/GD1.png)
 
 ![GD2](https://github.com/samarthkedilaya/Breast-Cancer-Diagnosis/blob/master/images/GD2.png)
 
-5. Back Propagation
+5. [Backpropagation](https://en.wikipedia.org/wiki/Backpropagation)
 
 ![BP1](https://github.com/samarthkedilaya/Breast-Cancer-Diagnosis/blob/master/images/BP1.png)
 
