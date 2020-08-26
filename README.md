@@ -90,7 +90,7 @@ Final accuracy of Test data at 3000th epoch is 93.05 %
 
 
 ## Unsupervised ML Algorithm
-### K-Means
+### K-Means Clustering
 ![KM](https://github.com/samarthkedilaya/Breast-Cancer-Diagnosis/blob/master/images/KM.png)
 
 1. Mapped M = malignant or B = benign to 1 or 0 respectively and preprocessed the data by min max normalization
