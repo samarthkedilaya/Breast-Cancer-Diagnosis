@@ -1,0 +1,5 @@
+How to Run:
+Both codes run on Pycharm IDE.
+Python Version 3.7
+To run both the supervised(MLP and Logistic Regression) algorithms Please run the code supervised.py
+To run  the unsupervised algorithm(K-means) Please run the code unsupervised.py
