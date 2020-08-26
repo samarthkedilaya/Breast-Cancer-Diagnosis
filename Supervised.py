@@ -44,7 +44,7 @@ accuracy_test=[]
 #max-min normalization
 def read_preprocess():
     #read the data from csv file
-    data = pd.read_csv('data.csv')
+    data = pd.read_csv("data/data.csv")
     #convert malignant to 1 and benign to 0
     data['diagnosis'] = data['diagnosis'].map({'M': 1, 'B': 0})
     #extract 30 features
@@ -145,7 +145,7 @@ def MLP():
 
 
 ###################################Logistic Regression######################################
-data = pd.read_csv('data.csv')
+data = pd.read_csv("data/data.csv")
 data['diagnosis'] = data['diagnosis'].map({'M': 1, 'B': 0})
 tempData = data[data.columns[2:32]]
 labels = data['diagnosis']

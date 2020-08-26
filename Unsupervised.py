@@ -14,7 +14,7 @@ n_clusters = 2
 
 # reading the data
 def readDataSet():
-    return pd.read_csv('data.csv')
+    return pd.read_csv('data/data.csv')
 
 
 # preprocessing the data
@@ -52,7 +52,7 @@ def envSetup():
     df_x = normalizeData(df_x)
     # "Dataset Normalized successfully!!!"#"Dataset reduced to 9 columns"
     x_train, x_test, y_train, y_test = createTrainTestDataSet(df_x, df_y)
-    print("Dataset divided as 80% train dataset & 20 test dataset")
+    print("Dataset divided as 80% train dataset & 20% test dataset")
     return x_train, x_test, y_train, y_test
 
 
